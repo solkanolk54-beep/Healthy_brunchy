@@ -4,8 +4,6 @@ import {
   Clock, 
   Phone, 
   Dumbbell, 
-  Building2, 
-  Navigation, 
   CheckCircle2,
   Truck
 } from 'lucide-react';
@@ -127,20 +125,28 @@ export const MilaLocationSection: React.FC<MilaLocationSectionProps> = ({
 
             <div className="grid grid-cols-2 gap-2 text-xs">
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813]" />
-                <span>Olympic Gym (ميلة)</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Olympic Gym (ميلة)</span>
               </div>
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813]" />
-                <span>Power Gym (سنكلوف)</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Power Gym (سنكلوف)</span>
               </div>
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813]" />
-                <span>Titan Club (شلغوم العيد)</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Titan Club (شلغوم العيد)</span>
               </div>
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813]" />
-                <span>Fitness Pro (قرارم قوقة)</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Fitness Pro (قرارم قوقة)</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Kys Gym (ميلة)</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#FDB813] shrink-0" />
+                <span className="truncate">Magic Form (ميلة)</span>
               </div>
             </div>
           </div>
