@@ -1,0 +1,6 @@
+{
+  "name": "Healthy Brunchy -Sol+ | Mila Nutrition Platform",
+  "description": "Sporty, precision-nutrition digital platform for Healthy Brunchy -Sol+ in Mila, Algeria. Features interactive 150g protein + 200g carb bowl builder, digital menu, athlete and corporate subscriptions, and technical architecture blueprint.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
